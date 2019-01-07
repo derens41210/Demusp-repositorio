@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.video.demusp"
-       name="[COLOR gold]demusp[/COLOR][COLOR blue] 0[/COLOR].[COLOR yellow]0[/COLOR].[COLOR red]3[/COLOR]"
-       version="0.0.3"
+       name="[COLOR gold]demusp[/COLOR][COLOR blue] 0[/COLOR].[COLOR yellow]0[/COLOR].[COLOR red]4[/COLOR]"
+       version="0.0.4"
        provider-name="Derens41210">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
