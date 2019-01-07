@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.demusp"
+       name="[COLOR gold]demusp[/COLOR][COLOR blue] 0[/COLOR].[COLOR yellow]0[/COLOR].[COLOR red]2[/COLOR]"
+       version="0.0.2"
+       provider-name="Derens41210">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+<extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/derens41210/repositorio/master/repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/derens41210/repositorio/master/repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/derens41210/master/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por derens41210</summary>
+    <description>demusp 2019</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.demusp" name="[COLOR lime]demusp Repositorio[/COLOR]" version="0.0.1" provider-name="Derens41210">
+    <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/derens41210/repositorio/master/repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/derens41210/repositorio/master/repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/derens41210/master/Repositorio/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para mis addons</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
