@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.video.demusp"
-       name="[COLOR gold]demusp[/COLOR][COLOR blue] 0[/COLOR].[COLOR yellow]0[/COLOR].[COLOR red]2[/COLOR]"
-       version="0.0.2"
+       name="[COLOR gold]demusp[/COLOR][COLOR blue] 0[/COLOR].[COLOR yellow]0[/COLOR].[COLOR red]3[/COLOR]"
+       version="0.0.3"
        provider-name="Derens41210">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -23,12 +23,11 @@
     <provides>video</provides>
   </extension>
 
-<extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/derens41210/repositorio/master/repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/derens41210/repositorio/master/repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/derens41210/master/Repositorio/</datadir>
+ <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/derens41210/Demusp-repositorio/master/repor/addons.xml?token=AsPSIGVWkpLTuHVuiT17zSIEF63u2qG3ks5cM7gSwA%3D%3D</info>
+        <checksum>https://raw.githubusercontent.com/derens41210/Demusp-repositorio/master/repor/addons.xml.md5?token=AsPSIOu8yFnFLHi0_qLJjQrM64lPZyMXks5cM7fNwA%3D%3D</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/derens41210/Demusp-repositorio/master/repor/</datadir>
     </extension>
-
   <extension point="xbmc.addon.metadata">
     <summary>Creado por derens41210</summary>
     <description>demusp 2019</description>
@@ -38,9 +37,9 @@
 
 <addon id="repository.demusp" name="[COLOR lime]demusp Repositorio[/COLOR]" version="0.0.1" provider-name="Derens41210">
     <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/derens41210/repositorio/master/repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/derens41210/repositorio/master/repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/derens41210/master/Repositorio/</datadir>
+        <info>https://raw.githubusercontent.com/derens41210/Demusp-repositorio/master/repor/addons.xml?token=AsPSIGVWkpLTuHVuiT17zSIEF63u2qG3ks5cM7gSwA%3D%3D</info>
+        <checksum>https://raw.githubusercontent.com/derens41210/Demusp-repositorio/master/repor/addons.xml.md5?token=AsPSIOu8yFnFLHi0_qLJjQrM64lPZyMXks5cM7fNwA%3D%3D</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/derens41210/Demusp-repositorio/master/repor/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio para mis addons</summary>
